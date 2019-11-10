@@ -9,7 +9,7 @@ list = []
 dict = {}
 i = 0
 
-for word in readWords('input_1.txt'):
+for word in readWords(input()):
     list.append(word)
 newlist = sorted(list)
 
@@ -25,4 +25,3 @@ for index, item in enumerate(sorteds):
     print(item[0])
     if index == 4:
         break
-
